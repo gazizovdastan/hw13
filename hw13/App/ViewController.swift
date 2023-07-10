@@ -111,7 +111,6 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         viewController.settingModel = cellModel
         navigationController?.pushViewController(viewController, animated: true)
     }
-
 }
 
 
