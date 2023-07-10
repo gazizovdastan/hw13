@@ -73,13 +73,14 @@ class SwitchTableViewCell: UITableViewCell {
         iconImageView.snp.makeConstraints { make in
             make.centerY.equalToSuperview()
             make.leading.equalToSuperview().offset(18)
-            make.height.equalTo(33)
-            make.width.equalTo(30)
+            make.height.width.equalTo(33)
         }
+        
         label.snp.makeConstraints { make in
             make.centerY.equalToSuperview()
             make.leading.equalTo(iconImageView.snp.trailing).offset(16)
         }
+        
         uiSwitch.snp.makeConstraints { make in
             make.centerY.equalToSuperview()
             make.trailing.equalToSuperview().offset(-10)
