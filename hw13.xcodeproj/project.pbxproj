@@ -47,6 +47,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6810708B2A88F53700276671 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				68BB42462A5BBB3B00D41CB5 /* AppDelegate.swift */,
+				68BB42482A5BBB3B00D41CB5 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6810708C2A88F54200276671 /* SettingModule */ = {
+			isa = PBXGroup;
+			children = (
+				6810708D2A88F57200276671 /* Scenes */,
+			);
+			path = SettingModule;
+			sourceTree = "<group>";
+		};
+		6810708D2A88F57200276671 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6810708E2A88F57E00276671 /* Model */,
+				681070902A88F59000276671 /* View */,
+				6810708F2A88F58400276671 /* Controller */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6810708E2A88F57E00276671 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68BB425F2A5BC1A800D41CB5 /* Setting.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6810708F2A88F58400276671 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68BB424A2A5BBB3B00D41CB5 /* ViewController.swift */,
+				68BB426A2A5BC58E00D41CB5 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		681070902A88F59000276671 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68BB42612A5BC24200D41CB5 /* BaseTableViewCell.swift */,
+				68BB426C2A5BC5E600D41CB5 /* DetailTableViewCell.swift */,
+				68BB42652A5BC27F00D41CB5 /* SwitchTableViewCell.swift */,
+				68BB42672A5BC29400D41CB5 /* BadgeTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		68BB423A2A5BBB3B00D41CB5 = {
 			isa = PBXGroup;
 			children = (
@@ -66,7 +121,7 @@
 		68BB42452A5BBB3B00D41CB5 /* hw13 */ = {
 			isa = PBXGroup;
 			children = (
-				68BB425E2A5BBCF400D41CB5 /* App */,
+				68BB425E2A5BBCF400D41CB5 /* Sources */,
 				68BB425D2A5BBCDB00D41CB5 /* Resources */,
 			);
 			path = hw13;
@@ -81,20 +136,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		68BB425E2A5BBCF400D41CB5 /* App */ = {
+		68BB425E2A5BBCF400D41CB5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				68BB42462A5BBB3B00D41CB5 /* AppDelegate.swift */,
-				68BB42482A5BBB3B00D41CB5 /* SceneDelegate.swift */,
-				68BB424A2A5BBB3B00D41CB5 /* ViewController.swift */,
-				68BB425F2A5BC1A800D41CB5 /* Setting.swift */,
-				68BB426A2A5BC58E00D41CB5 /* DetailViewController.swift */,
-				68BB42612A5BC24200D41CB5 /* BaseTableViewCell.swift */,
-				68BB426C2A5BC5E600D41CB5 /* DetailTableViewCell.swift */,
-				68BB42652A5BC27F00D41CB5 /* SwitchTableViewCell.swift */,
-				68BB42672A5BC29400D41CB5 /* BadgeTableViewCell.swift */,
+				6810708C2A88F54200276671 /* SettingModule */,
+				6810708B2A88F53700276671 /* App */,
 			);
-			path = App;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

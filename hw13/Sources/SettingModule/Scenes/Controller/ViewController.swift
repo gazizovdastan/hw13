@@ -38,8 +38,7 @@ class ViewController: UIViewController {
         return tableView
     }()
     
-    
-    // MARK: - Setup
+        // MARK: - Setup
     
     override var shouldAutorotate: Bool {
         return false
