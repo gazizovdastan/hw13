@@ -12,13 +12,29 @@ class ViewController: UIViewController {
 
     // MARK: - State
     
+    private var settings: [[Setting]]?
+    let spacing: CGFloat = 60.0
+    
+    // MARK: - Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-    // MARK: - Lifecycle
 
     // MARK: - UI
+    
+    private lazy var settingsTableView: UITableView = {
+        let tableView = UITableView(frame: .zero, style: .grouped)
+        tableView.register(BaseTableViewCell.self, forCellReuseIdentifier: "baseCell")
+        tableView.register(DetailTableViewCell.self, forCellReuseIdentifier: "withDetail")
+        tableView.register(SwitchTableViewCell.self, forCellReuseIdentifier: "withSwitch")
+        tableView.register(BadgeTableViewCell.self, forCellReuseIdentifier: "withBadge")
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.rowHeight = 50
+        return tableView
+    }()
+    
     
     // MARK: - Setup
     

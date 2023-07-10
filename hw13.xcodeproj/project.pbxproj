@@ -12,6 +12,12 @@
 		68BB424B2A5BBB3B00D41CB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB424A2A5BBB3B00D41CB5 /* ViewController.swift */; };
 		68BB42502A5BBB3C00D41CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BB424F2A5BBB3C00D41CB5 /* Assets.xcassets */; };
 		68BB425C2A5BBCAF00D41CB5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 68BB425B2A5BBCAF00D41CB5 /* SnapKit */; };
+		68BB42602A5BC1A800D41CB5 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB425F2A5BC1A800D41CB5 /* Setting.swift */; };
+		68BB42622A5BC24200D41CB5 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB42612A5BC24200D41CB5 /* BaseTableViewCell.swift */; };
+		68BB42662A5BC27F00D41CB5 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB42652A5BC27F00D41CB5 /* SwitchTableViewCell.swift */; };
+		68BB42682A5BC29400D41CB5 /* BadgeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB42672A5BC29400D41CB5 /* BadgeTableViewCell.swift */; };
+		68BB426B2A5BC58E00D41CB5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB426A2A5BC58E00D41CB5 /* DetailViewController.swift */; };
+		68BB426D2A5BC5E600D41CB5 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BB426C2A5BC5E600D41CB5 /* DetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +27,12 @@
 		68BB424A2A5BBB3B00D41CB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		68BB424F2A5BBB3C00D41CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68BB42542A5BBB3C00D41CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68BB425F2A5BC1A800D41CB5 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		68BB42612A5BC24200D41CB5 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		68BB42652A5BC27F00D41CB5 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		68BB42672A5BC29400D41CB5 /* BadgeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeTableViewCell.swift; sourceTree = "<group>"; };
+		68BB426A2A5BC58E00D41CB5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		68BB426C2A5BC5E600D41CB5 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,12 @@
 				68BB42462A5BBB3B00D41CB5 /* AppDelegate.swift */,
 				68BB42482A5BBB3B00D41CB5 /* SceneDelegate.swift */,
 				68BB424A2A5BBB3B00D41CB5 /* ViewController.swift */,
+				68BB426A2A5BC58E00D41CB5 /* DetailViewController.swift */,
+				68BB425F2A5BC1A800D41CB5 /* Setting.swift */,
+				68BB42612A5BC24200D41CB5 /* BaseTableViewCell.swift */,
+				68BB426C2A5BC5E600D41CB5 /* DetailTableViewCell.swift */,
+				68BB42652A5BC27F00D41CB5 /* SwitchTableViewCell.swift */,
+				68BB42672A5BC29400D41CB5 /* BadgeTableViewCell.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -154,9 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BB426D2A5BC5E600D41CB5 /* DetailTableViewCell.swift in Sources */,
 				68BB424B2A5BBB3B00D41CB5 /* ViewController.swift in Sources */,
+				68BB42682A5BC29400D41CB5 /* BadgeTableViewCell.swift in Sources */,
 				68BB42472A5BBB3B00D41CB5 /* AppDelegate.swift in Sources */,
+				68BB42662A5BC27F00D41CB5 /* SwitchTableViewCell.swift in Sources */,
+				68BB42602A5BC1A800D41CB5 /* Setting.swift in Sources */,
+				68BB42622A5BC24200D41CB5 /* BaseTableViewCell.swift in Sources */,
 				68BB42492A5BBB3B00D41CB5 /* SceneDelegate.swift in Sources */,
+				68BB426B2A5BC58E00D41CB5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
