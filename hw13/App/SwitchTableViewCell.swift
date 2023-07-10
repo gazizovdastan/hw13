@@ -40,4 +40,49 @@ class SwitchTableViewCell: UITableViewCell {
         let uiSwitch = UISwitch(frame: .zero)
         return uiSwitch
     }()
+    
+    // MARK: - Lifecycle
+
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        setupViews()
+        setupConstraints()
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        iconImageView.image = nil
+        label.text = nil
+    }
+
+    // MARK: - Setup Views
+
+    private func setupViews() {
+        contentView.addSubview(iconImageView)
+        contentView.addSubview(label)
+        contentView.addSubview(uiSwitch)
+    }
+
+    // MARK: - Setup Constraints
+
+    private func setupConstraints() {
+        iconImageView.snp.makeConstraints { make in
+            make.centerY.equalToSuperview()
+            make.leading.equalToSuperview().offset(18)
+            make.height.equalTo(33)
+            make.width.equalTo(30)
+        }
+        label.snp.makeConstraints { make in
+            make.centerY.equalToSuperview()
+            make.leading.equalTo(iconImageView.snp.trailing).offset(16)
+        }
+        uiSwitch.snp.makeConstraints { make in
+            make.centerY.equalToSuperview()
+            make.trailing.equalToSuperview().offset(-10)
+        }
+    }
 }

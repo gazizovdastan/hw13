@@ -26,5 +26,4 @@ class DetailViewController: UIViewController {
         navigationController?.navigationBar.tintColor = .systemGray
         title = settingModel?.label
     }
-
 }

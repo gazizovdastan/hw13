@@ -87,8 +87,8 @@
 				68BB42462A5BBB3B00D41CB5 /* AppDelegate.swift */,
 				68BB42482A5BBB3B00D41CB5 /* SceneDelegate.swift */,
 				68BB424A2A5BBB3B00D41CB5 /* ViewController.swift */,
-				68BB426A2A5BC58E00D41CB5 /* DetailViewController.swift */,
 				68BB425F2A5BC1A800D41CB5 /* Setting.swift */,
+				68BB426A2A5BC58E00D41CB5 /* DetailViewController.swift */,
 				68BB42612A5BC24200D41CB5 /* BaseTableViewCell.swift */,
 				68BB426C2A5BC5E600D41CB5 /* DetailTableViewCell.swift */,
 				68BB42652A5BC27F00D41CB5 /* SwitchTableViewCell.swift */,
@@ -312,7 +312,7 @@
 				INFOPLIST_FILE = hw13/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,7 +339,7 @@
 				INFOPLIST_FILE = hw13/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
